@@ -11,8 +11,10 @@
 
   .skills-grid {
     display: grid;
+    
     grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
+    height: 100%;
     grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 2fr;

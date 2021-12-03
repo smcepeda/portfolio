@@ -11,16 +11,19 @@
   .grid {
     display: grid;
     margin-top: 20px;
+
+
+
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr;
     }
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr;
     }
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 2fr;
     }
   }
 }

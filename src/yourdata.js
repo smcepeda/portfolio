@@ -45,7 +45,7 @@ export default {
       title: "Project 1: Vevel", //Project Title - Add Your Project Title Here
       para: "Vevel is an application to trade stocks and cryptocurrencies.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "assets/vevel.png",
+      imageSrc: "assets/vevel2.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
