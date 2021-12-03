@@ -8,8 +8,9 @@ const Navbar = () => {
           <div
             role="button"
             onClick={() => scrollTo("#home")}
-            className="name"
+            className="portfolio"
             tabIndex={0}
+            styles=""
           >
             Santiago Cepeda
           </div>
