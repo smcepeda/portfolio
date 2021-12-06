@@ -1,6 +1,7 @@
 // Skills Icons
 import htmlIcon from "./images/html.svg"
 import flutterIcon from "./images/flutter.svg"
+import linkedinIcon from "./images/linkedin.webp"
 import figmaIcon from "./images/figma.svg"
 import reactIcon from "./images/reactjs.svg"
 import jsIcon from "./images/javascript.svg"
@@ -43,40 +44,35 @@ export default {
   projects: [
     {
       title: "Project 1: Vevel", //Project Title - Add Your Project Title Here
-      para: "Vevel is an application to trade stocks and cryptocurrencies.", // Add Your Service Type Here
+      //   para: "Vevel is an application to trade stocks and cryptocurrencies.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "assets/vevel2.png",
+      imageSrc: "assets/screen1.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/smcepeda/vevel",
     },
     {
-      title: "Project 2: Aha! App", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      title: "Project 2: PokeTrader", //Project Title - Add Your Project Title Here
+      //   para: "PokeTrader is a Pokemon card collectibles trading app.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: "assets/screen4.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/smcepeda/poketrader",
     },
     {
-      title: "Project 3: PokeTrader", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      title: "Project 3: Aha! App", //Project Title - Add Your Project Title Here
+      //   para: "Crypto Education App made with Flutter. Code is not public.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: "assets/screen8.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/smcepeda/",
     },
     {
       title: "Project 4: Floom", //Project Title - Add Your Project Title Here
-      para: "Vevel is an application to trade stocks and cryptocurrencies",
+      //   para: "Meditation app made with ReactJS, Ionic, Typescript and Firebase.",
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: "assets/screen6.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/smcepeda/floom",
     },
   ],
 
@@ -84,11 +80,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Passionate about building and designing web and mobile applications. Started to take programming seriously at University four years ago, and have done multiple side projects since. I am able to develop an idea from start to finish by using a lean-approach. Currently I'm looking for an opportunity to grow as a front-end engineer.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "I am passionate about developing and designing web and mobile applications. I have over four years of programming experience and several projects under my belt, which you can see on my portfolio website. I am comfortable bringing ideas to life from start to finish, using Figma for MVP design and ReactJS + Firebase for implementation. I am currently looking for an opportunity to grow as a front-end engineer.",
+  //   aboutParaTwo:
+  // "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   aboutParaThree:
+  // "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage: "assets/santiago1.png",
 
   //   End About Section ---------------------
@@ -154,18 +150,10 @@ export default {
   contactSubHeading: "Let's create your next web/mobile application together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/smcepeda" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/santiago-m-cepeda-64757970/",
     },
   ],
 
