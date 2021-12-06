@@ -47,10 +47,10 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: "assets/vevel2.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/smcepeda/vevel",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Project 2: Aha! App", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -60,7 +60,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Project 3: PokeTrader", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -70,7 +70,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Project 4: Floom", //Project Title - Add Your Project Title Here
       para: "Vevel is an application to trade stocks and cryptocurrencies",
       //Project Image - Add Your Project Image Here
       imageSrc:
@@ -84,7 +84,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Passionate about building and designing web and mobile applications. Started to take programming seriously at University four years ago, and have done multiple side projects since. I am able to develop an idea from start to finish by using a lean-approach. Currently I'm looking for an opportunity to grow as a front-end engineer.",
   aboutParaTwo:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:

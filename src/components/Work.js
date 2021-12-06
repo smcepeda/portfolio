@@ -14,17 +14,15 @@ const Work = () => {
           </Fade>
 
           <div className="grid">
-            <Fade bottom cascade>
-              {data.projects.map((project, index) => (
-                <Card
-                  key={index}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  projectLink={project.url}
-                ></Card>
-              ))}
-            </Fade>
+            {data.projects.map((project, index) => (
+              <Card
+                key={index}
+                heading={project.title}
+                paragraph={project.para}
+                imgUrl={project.imageSrc}
+                projectLink={project.url}
+              ></Card>
+            ))}
           </div>
         </div>
       </div>
