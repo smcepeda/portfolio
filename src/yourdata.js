@@ -12,6 +12,11 @@ import elasticIcon from "./images/elastic-icon.png"
 import nodeIcon from "./images/node-icon.png"
 import elixirIcon from "./images/elixir-icon.png"
 import gatsbyIcon from "./images/gatsby-icon.png"
+import santiago from "./images/santiago2.jpg"
+import vevel from "./images/vevel.png"
+import floom from "./images/floom.png"
+import aha from "./images/aha.png"
+import pokemon from "./images/pokemon.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -45,7 +50,7 @@ export default {
       title: "Project 1: Vevel", //Project Title - Add Your Project Title Here
       //   para: "Vevel is an application to trade stocks and cryptocurrencies.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "/screen1.png",
+      imageSrc: vevel,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/smcepeda/vevel",
     },
@@ -53,7 +58,7 @@ export default {
       title: "Project 2: PokeTrader", //Project Title - Add Your Project Title Here
       //   para: "PokeTrader is a Pokemon card collectibles trading app.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "/screen4.png",
+      imageSrc: pokemon,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/smcepeda/poketrader",
     },
@@ -61,7 +66,7 @@ export default {
       title: "Project 3: Aha! App", //Project Title - Add Your Project Title Here
       //   para: "Crypto Education App made with Flutter. Code is not public.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "/screen8.png",
+      imageSrc: aha,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/smcepeda/",
     },
@@ -69,7 +74,7 @@ export default {
       title: "Project 4: Floom", //Project Title - Add Your Project Title Here
       //   para: "Meditation app made with ReactJS, Ionic, Typescript and Firebase.",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/screen6.png",
+      imageSrc: floom,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/smcepeda/floom",
     },
@@ -84,7 +89,7 @@ export default {
   // "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   //   aboutParaThree:
   // "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage: "/santiago2.jpg",
+  aboutImage: santiago,
 
   //   End About Section ---------------------
 
